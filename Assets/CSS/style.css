@@ -1,0 +1,106 @@
+body {
+	background-image: url("../images/regal.png");
+	margin-bottom: 60px;
+	}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+/*Overwriting form colors with the blue text color*/
+.bluetext {
+	color: #4aaaa5;
+}
+
+/*Can't make this work*/
+.bluebutton {
+	background-color: #4aaaa5;
+}
+
+/*Section which holds paragraph and image*/
+.section {
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: #dddddd;
+	margin-top: 10px;
+	}
+
+/*Social contact box*/
+.g {
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: #dddddd;
+	list-style: none;
+	display: inline-block;
+	margin-top: 10px;
+	}
+
+/*Contact form*/
+.form {
+	margin-top: 10px;
+}
+
+/*All H1 headers*/
+.h1 {
+	color: #4aaaa5;
+}
+
+/*I forget, look into why I did this*/
+.padded {
+	padding: 20px;
+}
+
+
+/*Navigation*/
+.navi {
+	background-color: #ffffff;
+	list-style: none;
+	text-transform: uppercase;
+	color: grey;
+}
+
+/*Footer*/
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #777777;
+	color: white;
+	text-align: center;
+	height: 40px;
+	padding-top: 10px;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap:  wrap;
+	width: 650px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: #dddddd;
+	padding: 20px 20px 20px 20px;
+/*	margin: 0px auto;*/
+	}
+}
+
+/*Styling for the portfolio section*/
+.imageSection {
+	width: 100px;
+	height: 100px;
+}
+
+.imageSection img {
+	height: 100%;
+	width: 100%;
+}
+
+.description {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	/*padding: 15px;*/
+	text-align: center;
+	position: relative;
+	bottom: 40px;
+	width: 100%;
+}
